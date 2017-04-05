@@ -1,0 +1,81 @@
+@font-face{
+    font-family: heading;
+    src: url('font.ttf');
+}
+
+body{
+    margin: 40px 40px 40px 40px;
+    background-color: dimgrey;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+h1{
+    font-family: heading;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: inherit;
+    color: orange;
+    
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    color: chocolate
+}
+
+p:first-letter{
+    font-size: 1.5em;
+}
+
+strong.green{
+    color: brown;
+}
+.mood{
+    height: 100px;
+    width: 100px;
+}
+
+ul.circle{
+    list-style-type: circle;
+}
+
+ul.disc{
+    list-style-type: disc;
+}
+
+.image-border{
+    border: 3px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.custom-link{
+    color: darkred;
+    text-decoration: none;
+}
+
+.custom-link:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+dt{
+    font-weight: bold;
+    font-size: 20px;
+    color: burlywood;
+}
+
+dd{
+    font-weight: normal;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+#reverse ol{
+    display: flex;
+    flex-direction: column-reverse;
+}
